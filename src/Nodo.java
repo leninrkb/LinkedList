@@ -1,10 +1,10 @@
 public class Nodo {
-    public int info;
+    public String info;
     public Nodo next;
 
     public Nodo(){}
 
-    public Nodo(int data){
+    public Nodo(String data){
         this.info = data;
     }
 

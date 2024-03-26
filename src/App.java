@@ -1,8 +1,8 @@
 public class App {
     public static void main(String[] args) throws Exception {
-        Nodo n1 = new Nodo(1);
-        Nodo n2 = new Nodo(2);
-        Nodo n3 = new Nodo(3);
+        Nodo n1 = new Nodo("1");
+        Nodo n2 = new Nodo("2");
+        Nodo n3 = new Nodo("3");
 
         n1.next = n2;
         n2.next = n3;
@@ -69,5 +69,15 @@ public class App {
         // p = n1;
         // p.next.next.next = p;
         // p.print();
+
+        n1.info = "A";
+        n2.info = "B";
+        n3.info = "C";
+
+        //ejercicio 10
+        p = n1;
+        q = n3;
+        p.next = q;
+        p.print();
     }
 }

@@ -141,14 +141,14 @@ public class App {
         // p.print();
 
         // ejercicio 17
-        p = n1;
-        q = null;
-        q = p;
-        p = p.next;
-        q.next = null;
-        p.next.next = q;
-        q = null;
-        p.print();
+        // p = n1;
+        // q = null;
+        // q = p;
+        // p = p.next;
+        // q.next = null;
+        // p.next.next = q;
+        // q = null;
+        // p.print();
 
         // ejercicio 18
         // p = n1;
@@ -156,5 +156,8 @@ public class App {
         // p = p.next;
         // p.next.next.next = null;
         // p.print();
+
+        // ejercicio 19
+        
     }
 }

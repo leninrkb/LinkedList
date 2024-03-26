@@ -1,15 +1,15 @@
 public class Nodo {
-    public int data;
+    public int info;
     public Nodo next;
 
     public Nodo(){}
 
     public Nodo(int data){
-        this.data = data;
+        this.info = data;
     }
 
     public void print(){
-        System.out.println(this.data);
+        System.out.println(this.info);
         print(this.next);
     }
 
@@ -17,11 +17,11 @@ public class Nodo {
         if(next == null){
             return;
         }
-        System.out.println(next.data);
+        System.out.println(next.info);
         print(next.next);
     }
 
     public void printcur(){
-        System.out.println(this.data);
+        System.out.println(this.info);
     }
 }

@@ -141,6 +141,13 @@ public class App {
         // p.print();
 
         // ejercicio 17
+        // p = n1;
+        // p.next.next.next = p;
+        // p = p.next;
+        // p.next.next.next = null;
+        // p.print();
+
+        // ejercicio 18
         p = n1;
         p.next.next.next = p;
         p = p.next;

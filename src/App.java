@@ -99,18 +99,25 @@ public class App {
         // q.print();
 
         // ejercicio 13
-        Nodo n4 = new Nodo("C");
-        n3.next = n4;
-        p = n1;
-        q = n1;
-        Nodo aux = n1;
-        while(aux != null){
-            if(aux.info == "C"){
-                q = aux;
-                break;
-            }
-            aux = aux.next;
-        }
-        q.print();
+        // Nodo n4 = new Nodo("C");
+        // n3.next = n4;
+        // p = n1;
+        // q = n1;
+        // Nodo aux = n1;
+        // while(aux != null){
+        //     if(aux.info == "C"){
+        //         q = aux;
+        //         break;
+        //     }
+        //     aux = aux.next;
+        // }
+        // q.print();
+
+        // ejercicio 14
+        p = new Nodo("A");
+        p.next = new Nodo("B");
+        p.next.next = new Nodo("C");
+        p.next.next.next = new Nodo("D");
+        p.print();
     }
 }

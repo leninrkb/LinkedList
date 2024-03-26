@@ -75,9 +75,14 @@ public class App {
         n3.info = "C";
 
         //ejercicio 10
+        // p = n1;
+        // q = n3;
+        // p.next = q;
+        // p.print();
+
+        //ejercicio 11
         p = n1;
-        q = n3;
-        p.next = q;
+        p.next = p.next.next;
         p.print();
     }
 }

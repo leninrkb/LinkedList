@@ -114,10 +114,24 @@ public class App {
         // q.print();
 
         // ejercicio 14
-        p = new Nodo("A");
-        p.next = new Nodo("B");
-        p.next.next = new Nodo("C");
-        p.next.next.next = new Nodo("D");
+        // p = new Nodo("A");
+        // p.next = new Nodo("B");
+        // p.next.next = new Nodo("C");
+        // p.next.next.next = new Nodo("D");
+        // p.print();
+
+        // ejercicio 15
+        n1 = new Nodo("A");
+        n2 = new Nodo("B");
+        n3 = new Nodo("C");
+        n2.next = n3;
+
+        p = n2;
+        q = null;
+        q = p;
+        p = n1;
+        p.next = q;
+        q = null;
         p.print();
     }
 }

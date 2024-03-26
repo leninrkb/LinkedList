@@ -121,17 +121,23 @@ public class App {
         // p.print();
 
         // ejercicio 15
-        n1 = new Nodo("A");
-        n2 = new Nodo("B");
-        n3 = new Nodo("C");
-        n2.next = n3;
+        // n1 = new Nodo("A");
+        // n2 = new Nodo("B");
+        // n3 = new Nodo("C");
+        // n2.next = n3;
 
-        p = n2;
-        q = null;
-        q = p;
+        // p = n2;
+        // q = null;
+        // q = p;
+        // p = n1;
+        // p.next = q;
+        // q = null;
+        // p.print();
+
+        // ejercicio 16
+        Nodo n4 = new Nodo("D");
         p = n1;
-        p.next = q;
-        q = null;
+        p.next.next.next = n4;
         p.print();
     }
 }

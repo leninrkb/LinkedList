@@ -2,6 +2,15 @@ public class Nodo {
     public String info;
     public Nodo next;
 
+
+
+
+
+
+
+
+    
+
     public Nodo(){}
 
     public Nodo(String data){

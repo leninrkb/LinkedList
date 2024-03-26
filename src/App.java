@@ -16,17 +16,15 @@ public class App {
         
         // ejercicio 1
         // p = n1;
-        // q = n3;
-        // r = n3;
         // p = p.next;
         // p.print();
 
         //ejercicio 2
         // p = n1;
-        // q = n3;
+        // q = n2;
         // r = n3;
         // p = q;
-        // p.print();
+        // q.print();
 
         //ejercicio 3
         // p = n1;
@@ -40,6 +38,7 @@ public class App {
         // r = n3;
         // r = p.next;
         // r.print();
+
 
         //ejercicio 5
         // p = n1;
@@ -57,13 +56,13 @@ public class App {
         // p = n1;
         // r = n3;
         // r.next = p;
-        // r.print();
+        // p.print();
 
         //ejercicio 8
         // p = n1;
         // q = n2;
         // q.next.next = p;
-        // q.print();
+        // p.print();
 
         //ejercicio 9
         // p = n1;
@@ -158,6 +157,30 @@ public class App {
         // p.print();
 
         // ejercicio 19
+        n1 = new Nodo("E");
+        n2 = new Nodo("H");
+        n3 = new Nodo("M");
+        n1.next = n2;
+        n2.next = n3;
+        p = n1;
+
+        Nodo n4 = new Nodo("B");
+        Nodo n5 = new Nodo("F");
+        Nodo n6 = new Nodo("G");
+        Nodo n7 = new Nodo("R");
+        n4.next = n5;
+        n5.next = n6;
+        n6.next = n7;
+        q = n4;
+
+        Nodo temp = new Nodo();
+        p.next.next.next = q.next.next.next;
+        q.next.next.next = p.next;
+        temp = p;
+        p = q.next;
+        q.next = temp;
+        q.next.next = p;
+        q.print();
         
     }
 }

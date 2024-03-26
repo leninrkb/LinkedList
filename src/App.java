@@ -67,8 +67,7 @@ public class App {
 
         //ejercicio 9
         // p = n1;
-        // q = n2;
-        // q.next.next = p;
-        // q.print();
+        // p.next.next.next = p;
+        // p.print();
     }
 }

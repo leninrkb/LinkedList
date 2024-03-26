@@ -135,9 +135,16 @@ public class App {
         // p.print();
 
         // ejercicio 16
-        Nodo n4 = new Nodo("D");
+        // Nodo n4 = new Nodo("D");
+        // p = n1;
+        // p.next.next.next = n4;
+        // p.print();
+
+        // ejercicio 17
         p = n1;
-        p.next.next.next = n4;
+        p.next.next.next = p;
+        p = p.next;
+        p.next.next.next = null;
         p.print();
     }
 }

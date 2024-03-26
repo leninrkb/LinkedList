@@ -81,8 +81,21 @@ public class App {
         // p.print();
 
         //ejercicio 11
+        // p = n1;
+        // p.next = p.next.next;
+        // p.print();
+
+        //ejercicio 12
+        Nodo n4 = new Nodo("D");
+        n3.next = n4;
         p = n1;
-        p.next = p.next.next;
+        q = n1;
+        Nodo aux = p;
+        while(aux != null){
+            q = aux;
+            aux = aux.next;
+        }
         p.print();
+        q.print();
     }
 }

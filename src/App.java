@@ -180,7 +180,9 @@ public class App {
         p = q.next;
         q.next = temp;
         q.next.next = p;
-        q.print();
+        p = q;
+        q = null;
+        p.print();
         
     }
 }

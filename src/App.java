@@ -86,16 +86,31 @@ public class App {
         // p.print();
 
         //ejercicio 12
-        Nodo n4 = new Nodo("D");
+        // Nodo n4 = new Nodo("D");
+        // n3.next = n4;
+        // p = n1;
+        // q = n1;
+        // Nodo aux = p;
+        // while(aux != null){
+        //     q = aux;
+        //     aux = aux.next;
+        // }
+        // p.print();
+        // q.print();
+
+        // ejercicio 13
+        Nodo n4 = new Nodo("C");
         n3.next = n4;
         p = n1;
         q = n1;
-        Nodo aux = p;
+        Nodo aux = n1;
         while(aux != null){
-            q = aux;
+            if(aux.info == "C"){
+                q = aux;
+                break;
+            }
             aux = aux.next;
         }
-        p.print();
         q.print();
     }
 }
